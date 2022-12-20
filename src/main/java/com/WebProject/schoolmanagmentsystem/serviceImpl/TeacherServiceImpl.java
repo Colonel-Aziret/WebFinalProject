@@ -13,13 +13,13 @@ public class TeacherServiceImpl implements ITeachersService {
     @Autowired
     private ITeachersRepository teachersRepository;
 
-    public TeacherServiceImpl (ITeachersRepository teachersRepository){
+    public TeacherServiceImpl(ITeachersRepository teachersRepository) {
         this.teachersRepository = teachersRepository;
     }
 
     @Override
     public List<TeachersModel> getAllTeachers() {
-       return teachersRepository.findAll();
+        return teachersRepository.findAll();
     }
 
 
