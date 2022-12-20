@@ -5,5 +5,5 @@
 Aziret Ramankulov
 Astan Serikov 
 
-#Group
+# Group:
 COM-21B
